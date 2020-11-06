@@ -13,12 +13,12 @@ Figurativamente, imagina que el terreno donde te encuentras se define por con cu
 y los zombies caminan hacia ustedes, pero sólo pueden caminar de forma recta o en diagonal, cómo se vé en la siguiente figura:
 
 
-|----|----|----|            |----|----|----|            |----|----|----|            |----|----|----|
-|X   |X   |X   |X           |X   |X   |X   |X           |X   |X   |X   |X           |X   |X   |X   |X
-|X   |X   |X   |X           |X   |X   |X   |X           |X   |X   |X   |X           |X   |X   |X   |X
-|X   |0   |X   |X           |X   |0   |X   |X           |X   |0   |X   |X           |X   |0   |X   |X
-|X   |X   |1   |X           |X   |X   |1   |X           |X   |X   |1   |X           |X   |X   |1   |X
-|X   |X   |X   |2           |X   |X   |X   |2           |X   |X   |X   |2           |X   |X   |X   |2
+|----|----|----|----|            |----|----|----|            |----|----|----|            |----|----|----|
+|X   |X   |X   |X   |           |X   |X   |X   |X           |X   |X   |X   |X           |X   |X   |X   |X
+|X   |X   |X   |X   |           |X   |X   |X   |X           |X   |X   |X   |X           |X   |X   |X   |X
+|X   |0   |X   |X   |           |X   |0   |X   |X           |X   |0   |X   |X           |X   |0   |X   |X
+|X   |X   |1   |X   |           |X   |X   |1   |X           |X   |X   |1   |X           |X   |X   |1   |X
+|X   |X   |X   |2   |           |X   |X   |X   |2           |X   |X   |X   |2           |X   |X   |X   |2
 
 
 
