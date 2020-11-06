@@ -13,7 +13,6 @@ Figurativamente, imagina que el terreno donde te encuentras se define por con cu
 y los zombies caminan hacia ustedes, pero sólo pueden caminar de forma recta o en diagonal, cómo se vé en la siguiente figura:
 
 | First Header  | Second Header |
-| ------------- | ------------- |
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
 
