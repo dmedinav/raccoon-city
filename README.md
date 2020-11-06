@@ -61,7 +61,7 @@ A continuación se muestra un ejemplo:
 
 | Entrada                 | Identificar Variables               |
 |-------------------------|-------------------------------------|
-| [[1,3],[[-1,-2],[2,-3]] | A=[0,0] P=[1,3] Z=[[-1,-2],[2,-3]]  |
+| [[1,3],[[-1,-2],[2,-3]]]| A=[0,0] P=[1,3] Z=[[-1,-2],[2,-3]]  |
 
 Lo que se puede interpretar como:
 
@@ -111,7 +111,7 @@ Gracias Alice!
 
 Restricciones:
 1) Se descontará por usar bucles for y/o while
-2) La cantidad de zombies: 0 > Zcant > 10
+2) La cantidad de zombies: 0 >= Zcant <= 10
 3) Las coordenadas: -15 > Xi < 15 , -15 > Yi < 15 
 
 Motivación: Un ejercicio similar a este fue utilizado para una entrevista
