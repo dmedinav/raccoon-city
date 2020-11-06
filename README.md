@@ -94,6 +94,7 @@ Finalmente Alice logra matar a los dos zombies antes de se coman a alguno, qued√
 |----|----|----|----|----|----|----|
 |X   |X   |X   |X   |P(1,3)   |X   |X   |
 |X   |X   |X   |X   |   |X   |X   |
+|X   |X   |X   |X   |   |X   |X   |
 |X   |X   |X   |A(0,0)   |X   |X   |X   |
 |X   |X   |X   |X   |X   |X   |X   |
 |X   |X   |E   |X   |E   |X   |X   |
