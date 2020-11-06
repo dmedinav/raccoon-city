@@ -14,6 +14,7 @@ y los zombies caminan hacia ustedes. Sólo ellos se moverán, y podrán hacerlo 
 , cómo se puede visualizar en el ejemplo de las figuras siguientes, donde los números 0,1,2 representan los pasos que dan en cada dirección:
 
 a) En diagonal:
+
 |    |    |    |    |
 |----|----|----|----|
 |X   |X   |X   |X   |
