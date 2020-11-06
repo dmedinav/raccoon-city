@@ -67,13 +67,24 @@ Lo que se puede interpretar como:
 
 |    |    |    |    |    |    |    |
 |----|----|----|----|----|----|----|
-|X   |X   |X   |X   |P(1,3)   |X   |X   |
 |X   |X   |X   |X   |X   |X   |X   |
-|X   |X   |X   |X   |X   |X   |X   |
+|X   |X   |X   |X   |   |X   |X   |
 |X   |X   |X   |A(0,0)   |X   |X   |X   |
 |X   |X   |X   |X   |X   |X   |X   |
 |X   |X   |Z1(-1,-2)   |X   |X   |X   |X   |
-|X   |X   |X   |X   |X   |X   |Z2(2,-3)   |
+|X   |X   |X   |X   |X   |Z2(2,-3)   |X   |
+
+A partir de ahí, Alice comienza a disparar. Siempre le dispara al más cercano a ella, y los zombies se acercan un metro
+en línea recta o diagonal a su presa más cercana, quedándo de la siguiente manera:
+
+|    |    |    |    |    |    |    |
+|----|----|----|----|----|----|----|
+|X   |X   |X   |X   |X   |X   |X   |
+|X   |X   |X   |X   |   |X   |X   |
+|X   |X   |X   |A(0,0)   |X   |X   |X   |
+|X   |X   |X   |X   |X   |X   |X   |
+|X   |X   |X   |X   |Z2(1,-2)   |X   |X   |
+|X   |X   |X   |X   |X   |X   |X   |
 
 
 Dado un número entero N que llamaremos base y un número K que llamaremos índice de concatenación, debemos encontrar el dígito base 
