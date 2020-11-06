@@ -17,7 +17,7 @@ const raccoonCity = (input) => {
     readline.question(`Ingrese la entrada para ver si sobrevives:  `, (input) => {
       const inputArray = eval(input);
       if(Array.isArray(inputArray)){
-        raccoonCity(eval(input))
+        raccoonCity(input)
         readline.close()
       }else{
         console.log("Ingrese parámetros válidos")
