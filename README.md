@@ -12,7 +12,7 @@ veamos si sobrevives.
 Figurativamente, imagina que el terreno donde te encuentras se define por con cuadrículas de 1 metro cuadrado, formándose un plano cartesiano, 
 y los zombies caminan hacia ustedes, pero sólo pueden caminar de forma recta o en diagonal, cómo se vé en la siguiente figura:
 
-| i1  | i2  |
+|   |   |
 | ------------- | ------------- |
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
