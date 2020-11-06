@@ -9,7 +9,7 @@ veamos si sobrevives.
 
 ### Desafío:
 
-Figurativamente, imagina que el terreno donde te encuentras se define por con cuadrículas de 1 metro cuadrado, formándose un plano cartesiano, 
+Figurativamente, imagina que el terreno donde te encuentras se define por cuadrículas de 1 metro cuadrado, formándose un plano cartesiano, 
 y los zombies caminan hacia ustedes. Sólo ellos se moverán, y podrán hacerlo de forma recta o en diagonal en todas direcciones sólo 1 metro por turno
 , cómo se puede visualizar en el ejemplo de las figuras siguientes, donde los números 0,1,2 representan los pasos que dan en cada dirección:
 
@@ -69,6 +69,7 @@ Lo que se puede interpretar como:
 |----|----|----|----|----|----|----|
 |X   |X   |X   |X   |P(1,3)   |X   |X   |
 |X   |X   |X   |X   |   |X   |X   |
+|X   |X   |X   |X   |   |X   |X   |
 |X   |X   |X   |A(0,0)   |X   |X   |X   |
 |X   |X   |X   |X   |X   |X   |X   |
 |X   |X   |Z1(-1,-2)   |X   |X   |X   |X   |
@@ -80,6 +81,7 @@ en línea recta o diagonal a su presa más cercana, quedándo de la siguiente ma
 |    |    |    |    |    |    |    |
 |----|----|----|----|----|----|----|
 |X   |X   |X   |X   |P(1,3)   |X   |X   |
+|X   |X   |X   |X   |   |X   |X   |
 |X   |X   |X   |X   |   |X   |X   |
 |X   |X   |X   |A(0,0)   |X   |X   |X   |
 |X   |X   |X   |X   |X   |X   |X   |
