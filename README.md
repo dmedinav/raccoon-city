@@ -114,4 +114,5 @@ Restricciones:
 Motivación: Un ejercicio similar a este fue utilizado para una entrevista
 en una reconocida empresa en USA.
 
-Que 
+Ánimo Previdiano, ya termina la semana, 
+aprovecha de hacer amigos y aprender en el proceso!.
