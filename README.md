@@ -67,7 +67,7 @@ Lo que se puede interpretar como:
 
 |    |    |    |    |    |    |    |
 |----|----|----|----|----|----|----|
-|X   |X   |X   |X   |X   |X   |X   |
+|X   |X   |X   |X   |P(1,3)   |X   |X   |
 |X   |X   |X   |X   |   |X   |X   |
 |X   |X   |X   |A(0,0)   |X   |X   |X   |
 |X   |X   |X   |X   |X   |X   |X   |
@@ -79,38 +79,39 @@ en línea recta o diagonal a su presa más cercana, quedándo de la siguiente ma
 
 |    |    |    |    |    |    |    |
 |----|----|----|----|----|----|----|
-|X   |X   |X   |X   |X   |X   |X   |
+|X   |X   |X   |X   |P(1,3)   |X   |X   |
 |X   |X   |X   |X   |   |X   |X   |
 |X   |X   |X   |A(0,0)   |X   |X   |X   |
 |X   |X   |X   |X   |X   |X   |X   |
-|X   |X   |X   |X   |Z2(1,-2)   |X   |X   |
+|X   |X   |E   |X   |Z2(1,-2)   |X   |X   |
 |X   |X   |X   |X   |X   |X   |X   |
 
+Finalmente Alice logra matar a los dos zombies antes de se coman a alguno, quedándo figurativamente de la siguiente manera:
 
-Dado un número entero N que llamaremos base y un número K que llamaremos índice de concatenación, debemos encontrar el dígito base 
-del número resultante de la concatenación de K veces N.
+|    |    |    |    |    |    |    |
+|----|----|----|----|----|----|----|
+|X   |X   |X   |X   |P(1,3)   |X   |X   |
+|X   |X   |X   |X   |   |X   |X   |
+|X   |X   |X   |A(0,0)   |X   |X   |X   |
+|X   |X   |X   |X   |X   |X   |X   |
+|X   |X   |E   |X   |E   |X   |X   |
+|X   |X   |X   |X   |X   |X   |X   |
 
-Por ejemplo:
+En cuanto a lo que debe entregar el algoritmo, es como sigue:
+a) Si sobreviven Alice y tú debe entregar el siguient texto: Gracias Alice!
+b) Sólo Alice sobrevive: Adiós mundo cruel!
+c) Si muere Alice: RIP Alice
+d) Cualquier otro caso que no cumpla con las condiciones anteriores: Error
 
-> N = 856, K = 2, R = super_digit(865856) = super_digit(8 + 6 + 5 + 8 + 5 + 6) = 2
+Por lo que la salida del ejemplo es:
+Gracias Alice!
 
-Formato de entrada:
+Restricciones:
+1) Se descontará por usar bucles for y/o while
+2) La cantidad de zombies: 0 > Zcant > 10
+3) Las coordenadas: -15 > Xi < 15 , -15 > Yi < 15 
 
-> 856 2
+Motivación: Un ejercicio similar a este fue utilizado para una entrevista
+en una reconocida empresa en USA.
 
-Formato de salida:
-
-> 2
-
-Explicación:
-
->super_digit(P) = super_digit(8 + 5 + 6 + 8 + 5 +6)  
->               = super_digit(38)  
->               = super_digit(3 + 8)  
->               = super_digit(11)  
->               = super_digit(1 + 1)  
->               = super_digit(2)  
->               = 2  
-
-
-Haz tu mayor esfuerzo y diviértete!
+Que 
